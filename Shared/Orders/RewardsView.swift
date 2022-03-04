@@ -26,6 +26,7 @@ struct RewardsView: View {
         #if os(iOS)
         .navigationBarTitleDisplayMode(.inline)
         #endif
+        #if EXTENDED_ALL
         .safeAreaInset(edge: .bottom, spacing: 0) {
             VStack(spacing: 0) {
                 Divider()
@@ -43,6 +44,7 @@ struct RewardsView: View {
             }
             .background(.bar)
         }
+        #endif
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(BubbleBackground().ignoresSafeArea())
     }

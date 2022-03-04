@@ -34,16 +34,20 @@ struct AppSidebarNavigation: View {
                     Label("Favorites", systemImage: "heart")
                 }
             
+                #if EXTENDED_ALL
                 NavigationLink(tag: NavigationItem.recipes, selection: $selection) {
                     RecipeList()
                 } label: {
                     Label("Recipes", systemImage: "book.closed")
                 }
+                #endif
             }
             .navigationTitle("Fruta")
+            #if EXTENDED_ALL
             .safeAreaInset(edge: .bottom, spacing: 0) {
                 Pocket()
             }
+            #endif
             
             Text("Select a category")
                 .foregroundStyle(.secondary)

@@ -31,7 +31,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "610F550826158DE2001D3AA0"
                BuildableName = "Fruta.app"
-               BlueprintName = "Fruta macOS"
+               BlueprintName = "Fruta macOS All"
                ReferencedContainer = "container:Fruta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "610F550826158DE2001D3AA0"
             BuildableName = "Fruta.app"
-            BlueprintName = "Fruta macOS"
+            BlueprintName = "Fruta macOS All"
             ReferencedContainer = "container:Fruta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "610F550826158DE2001D3AA0"
             BuildableName = "Fruta.app"
-            BlueprintName = "Fruta macOS"
+            BlueprintName = "Fruta macOS All"
             ReferencedContainer = "container:Fruta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

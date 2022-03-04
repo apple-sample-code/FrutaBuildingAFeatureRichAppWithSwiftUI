@@ -54,7 +54,7 @@ struct RecipeView: View {
                         .foregroundStyle(.secondary)
                     
                     VStack {
-                        ForEach(0 ..< smoothie.measuredIngredients.count) { index in
+                        ForEach(0 ..< smoothie.measuredIngredients.count, id: \.self) { index in
                             RecipeIngredientRow(measuredIngredient: smoothie.measuredIngredients[index].scaled(by: Double(smoothieCount)))
                                 .padding(.horizontal)
                             if index < smoothie.measuredIngredients.count - 1 {

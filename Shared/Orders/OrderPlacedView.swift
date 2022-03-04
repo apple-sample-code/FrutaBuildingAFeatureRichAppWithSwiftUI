@@ -38,9 +38,11 @@ struct OrderPlacedView: View {
             
             Spacer()
             
+            #if EXTENDED_ALL
             if presentingBottomBanner {
                 bottomBanner
             }
+            #endif
             
             #if APPCLIP
             Text(verbatim: "App Store Overlay")

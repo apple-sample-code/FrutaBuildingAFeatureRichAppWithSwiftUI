@@ -46,6 +46,7 @@ struct AppTabNavigation: View {
             }
             .tag(Tab.favorites)
             
+            #if EXTENDED_ALL
             NavigationView {
                 RewardsView()
             }
@@ -71,6 +72,7 @@ struct AppTabNavigation: View {
                 }
             }
             .tag(Tab.recipes)
+            #endif
         }
     }
 }

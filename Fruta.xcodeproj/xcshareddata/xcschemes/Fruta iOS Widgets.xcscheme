@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "610F54C626158DDB001D3AA0"
-               BuildableName = "Fruta iOS.app"
-               BlueprintName = "Fruta iOS"
+               BuildableName = "Fruta iOS All.app"
+               BlueprintName = "Fruta iOS All"
                ReferencedContainer = "container:Fruta.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -72,8 +72,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "610F54C626158DDB001D3AA0"
-            BuildableName = "Fruta iOS.app"
-            BlueprintName = "Fruta iOS"
+            BuildableName = "Fruta iOS All.app"
+            BlueprintName = "Fruta iOS All"
             ReferencedContainer = "container:Fruta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -90,8 +90,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "610F54C626158DDB001D3AA0"
-            BuildableName = "Fruta iOS.app"
-            BlueprintName = "Fruta iOS"
+            BuildableName = "Fruta iOS All.app"
+            BlueprintName = "Fruta iOS All"
             ReferencedContainer = "container:Fruta.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

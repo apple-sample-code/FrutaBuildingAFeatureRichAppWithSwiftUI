@@ -58,7 +58,9 @@ struct RewardsCard: View {
                         Text("You are \(10 - totalStamps) points away from a free smoothie!",
                              comment: "Label showing the number of points needed to get a free smoothie in rewards card view")
                     } else {
+                        #if EXTENDED_ALL
                         Text("Sign up to get rewards!", comment: "Label shown in rewards card view when no account has been created yet")
+                        #endif
                     }
                 }
                 .font(Font.system(.headline, design: .rounded).bold())
